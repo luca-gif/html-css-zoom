@@ -1,9 +1,25 @@
 header{
-  height: 50px;
+  height: 60px;
+  justify-content: flex-end;
 }
 
+
+header .btn{
+  background-color: #4a4a4a;
+  color: #ffffff;
+  padding: 4px;
+  border-radius: 6px;  
+  height: 25px;
+  margin: 10px 4px;
+}
+
+
+/* 
+MAIN
+*/
+
 main{
-  height: calc(100vh - 120px);
+  height: calc(100vh - 130px);
   color: white;
   overflow-y: auto;
 }
