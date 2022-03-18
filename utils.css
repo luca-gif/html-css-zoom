@@ -7,8 +7,14 @@
   display: flex;
 }
 
-.border{
-  border: 1px solid red;
+.container{
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.active:active i{
+  color: #4bc800;
 }
 
 /* 
