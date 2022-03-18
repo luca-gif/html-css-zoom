@@ -3,11 +3,16 @@ header{
   justify-content: flex-end;
 }
 
+header .btn a{
+  align-self: center;
+}
+
 
 header .btn{
   background-color: #4a4a4a;
   color: #ffffff;
-  padding: 4px;
+  padding: 0 5px;
+  font-size: 13px;
   border-radius: 6px;  
   height: 25px;
   margin: 10px 4px;
@@ -57,26 +62,48 @@ footer{
   align-items: center;
 }
 
+footer .items-left .chevron i{
+  font-size: 10px;
+}
+
+footer .item{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+footer .items-left .chevron{
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+
 footer .item{
   color: white;
-  min-width: 70px;
+  min-width: 70px;  
+}
+
+footer .item a{
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 footer .items-right{
   background-color: #4a4a4a;
   height: 100%;
   line-height: 70px;
-  color: red;
   padding: 0 10px;
+}
+
+footer .items-right a{
+  color: red;
 }
 
 footer .item i{
   color: white;
   font-size: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 6px;
 }
 
 footer .item p{
