@@ -24,6 +24,39 @@ main{
   overflow-y: auto;
 }
 
+/* 
+FOOTER
+*/
+
 footer{
   height: 70px;
+  background-color: #222222;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .item{
+  color: white;
+  min-width: 50px;
+}
+
+footer .items-right{
+  background-color: #4a4a4a;
+  height: 100%;
+  line-height: 70px;
+  color: red;
+  padding: 0 10px;
+}
+
+footer .item i{
+  color: white;
+  font-size: 20px;
+}
+
+footer .item p{
+  font-size: 10px;
+}
+
+#chevron{
+  font-size: 10px;
 }
