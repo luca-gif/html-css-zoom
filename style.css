@@ -1,0 +1,13 @@
+header{
+  height: 50px;
+}
+
+main{
+  height: calc(100vh - 120px);
+  color: white;
+  overflow-y: auto;
+}
+
+footer{
+  height: 70px;
+}
