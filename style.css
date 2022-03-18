@@ -37,7 +37,10 @@ footer{
 
 footer .item{
   color: white;
-  min-width: 50px;
+  min-width: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 footer .items-right{
